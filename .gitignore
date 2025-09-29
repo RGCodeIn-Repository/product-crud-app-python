@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+# Virtual environment (Windows / Linux / macOS)
+local/
+venv/
+env/
+.env/
+
+
+# Database
+*.sqlite3
+*.db
+*.db-journal
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# MacOS
+.DS_Store
+
+# Uvicorn reload / temp files
+*.pid
+*.sock
+
+# Coverage reports
+htmlcov/
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# pytest cache
+.pytest_cache/
+
+# env files (optional)
+.env
+
+# Ignore migrations if using Alembic or Django (optional)
+migrations/
